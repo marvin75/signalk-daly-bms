@@ -48,11 +48,13 @@
   "homepage": "https://github.com/marvin75/signalk-daly-bms-ble#readme",
   "signalk-plugin-enabled-by-default": false,
   "signalk": {
-    "displayName": "Daly BMS"
+    "displayName": "Daly BMS",
+    "appIcon": "./assets/icon-128.png"
   },
   "files": [
     "index.js",
     "lib/daly.js",
-    "public"
+    "public",
+    "assets"
   ]
 }
