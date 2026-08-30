@@ -1,4 +1,4 @@
-# signalk-daly-bms
+# signalk-daly-bms-ble
 
 Signal K plugin for Daly Smart BMS devices over Bluetooth LE.
 

@@ -134,7 +134,7 @@ function PluginConfigurationPanel({
     try {
       const response =
         await fetch(
-          '/plugins/signalk-daly-bms/scan',
+          '/plugins/signalk-daly-bms-ble/scan',
           {
             credentials: 'include'
           }

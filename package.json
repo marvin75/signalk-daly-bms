@@ -1,5 +1,5 @@
 {
-  "name": "signalk-daly-bms",
+  "name": "signalk-daly-bms-ble",
   "version": "0.1.0",
   "description": "Signal K plugin for Daly Smart BMS devices over Bluetooth LE",
   "main": "index.js",
@@ -40,19 +40,19 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marvin75/signalk-daly-bms.git"
+    "url": "git+https://github.com/marvin75/signalk-daly-bms-ble.git"
   },
   "bugs": {
-    "url": "https://github.com/marvin75/signalk-daly-bms/issues"
+    "url": "https://github.com/marvin75/signalk-daly-bms-ble/issues"
   },
-  "homepage": "https://github.com/marvin75/signalk-daly-bms#readme",
+  "homepage": "https://github.com/marvin75/signalk-daly-bms-ble#readme",
   "signalk-plugin-enabled-by-default": false,
   "signalk": {
     "displayName": "Daly BMS"
   },
   "files": [
     "index.js",
-    "lib",
+    "lib/daly.js",
     "public"
   ]
 }

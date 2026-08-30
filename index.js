@@ -3,7 +3,7 @@ const { DalyBMS, scanDalyDevices } = require('./lib/daly');
 module.exports = function(app) {
   const plugin = {};
 
-  plugin.id = 'signalk-daly-bms';
+  plugin.id = 'signalk-daly-bms-ble';
   plugin.name = 'Daly BMS';
   plugin.description =
     'Reads one or more Daly Smart BMS devices over Bluetooth LE and publishes them to Signal K.';
