@@ -1,0 +1,35 @@
+{
+  "name": "signalk-daly-bms",
+  "version": "0.1.0",
+  "description": "Signal K plugin for Daly Smart BMS over Bluetooth LE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk",
+    "daly",
+    "bms",
+    "bluetooth",
+    "ble",
+    "signalk-plugin-configurator"
+  ],
+  "type": "commonjs",
+  "dependencies": {
+    "node-ble": "^1.13.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/preset-react": "^8.0.1",
+    "babel-loader": "^10.1.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "webpack": "^5.110.1",
+    "webpack-cli": "^7.2.3"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+*.bak
+*.before-*
+scan-test.js
+npm-debug.log*
+.DS_Store
