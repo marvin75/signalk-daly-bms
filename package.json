@@ -1,20 +1,22 @@
 {
   "name": "signalk-daly-bms",
   "version": "0.1.0",
-  "description": "Signal K plugin for Daly Smart BMS over Bluetooth LE",
+  "description": "Signal K plugin for Daly Smart BMS devices over Bluetooth LE",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --check index.js && node --check lib/daly.js",
     "build": "webpack --mode production"
   },
   "keywords": [
     "signalk-node-server-plugin",
+    "signalk-category-hardware",
+    "signalk-plugin-configurator",
     "signalk",
     "daly",
     "bms",
     "bluetooth",
     "ble",
-    "signalk-plugin-configurator"
+    "battery"
   ],
   "type": "commonjs",
   "dependencies": {
@@ -31,5 +33,26 @@
     "react-dom": "^19.2.8",
     "webpack": "^5.110.1",
     "webpack-cli": "^7.2.3"
-  }
+  },
+  "author": {
+    "name": "Marvin Field"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvin75/signalk-daly-bms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marvin75/signalk-daly-bms/issues"
+  },
+  "homepage": "https://github.com/marvin75/signalk-daly-bms#readme",
+  "signalk-plugin-enabled-by-default": false,
+  "signalk": {
+    "displayName": "Daly BMS"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "public"
+  ]
 }
